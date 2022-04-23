@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Remix Icon-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/16035331e7.js" crossorigin="anonymous"></script>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!---->
+    <title>
+        Mauro Coria | Portfolio
+    </title>
+</head>
+<body>
+    <!-- Toast Notification -->
+    <div class="toast-container">
+        <div class="toast">
+            <div class="toast-content">
+                <i class="fa-solid fa-check"></i>
+                <div class="message">
+                    <span class="text-toast text-toast-1">Success</span>
+                    <span class="text-toast text-toast-2">The username <span class="mauro">Mauro Coria#3797</span> has been copied to the clipboard.</span>
+                </div>
+            </div>
+            <i class="fa-solid fa-xmark close-toast"></i>
+        </div>
+    </div>
+
+
+
+    <!-- Profile Section -->
+    <main>
+        <section class="Profile container">
+            <div class="profile-container grid">
+                <div class="profile-data">
+                    <div class="profile-border">
+                        <div class="profile-photo">
+                            <img src="assets/files/images/profile-photo.png">
+                        </div>
+                    </div>
+                    <div class="profile-name">
+                        <span>Mauro Coria</span>
+                    </div>
+                    <div class="profile-social">
+                        <a href="https://github.com/Oolazile-MC" target="_Blank"><i class="ri-github-line"></i></a>
+                        <a href="https://www.linkedin.com/" target="_Blank"><i class="ri-linkedin-box-line"></i></a>
+                        <i id="copy-dc-user" class="ri-discord-line open-toast"></i>
+                        <p id="dc-username" class="dc-user">Mauro Coria#3797</p>
+                    </div>
+                    <div class="profile-info">
+                        <div class="firs-text">
+                            <span class="text-1">Mechatronic Engineering</span>
+                        </div>
+                        <div class="second-text">
+                            <span class="text-2">student</span>
+                        </div>
+                    </div>
+                    <div class="profile-buttons">
+                        <a href="/assets/files/Curriculum.txt" download="" class="button">
+                            Download CV <i class="fa-solid fa-file-arrow-down"></i>
+                        </a>
+                        <div class="message-buttons">
+                            <a href="mailto:oolazile@outlook.com" class="button small-btn gray-btn">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=524361206656" target="_Blank" class="button small-btn gray-btn">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!-- Filters -->
+    <div class="Filters">
+        <div class="filters-content">
+            <button class="filters-button filter-tab-active" data-target="#projects">
+                Projects
+            </button>
+            <button class="filters-button" data-target="#skills">
+                Skills
+            </button>
+        </div>
+    </div>
+
+
+
+    <!-- Sections -->
+    <div class="filters-sections">
+
+        <!-- Projects -->
+        <div class="projects-content grid filters-active" data-content id="projects">
+            <div class="Projects">
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="assets/files/images/project-1.png">
+                    </div>
+                    <div class="contentBx">
+                        <div class="content">
+                            <h3>Portfolio</h3>
+                            <p>My personal portfolio at the same time my first project, 
+                                it is a minimalist website in which I expose a little about my skills.
+                            </p>
+                            <div class="links">
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square" title="Go to the site"></i></a>
+                                <a href="https://github.com/Oolazile-MC" target="_Blank"><i class="fa-brands fa-github" title="View repository"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBx">
+                    </div>
+                    <div class="contentBx">
+                        <div class="content">
+                            <h3>Project 2</h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque numquam, autem quas molestias eaque quia sint modi error itaque voluptate distinctio.
+                            </p>
+                            <div class="links">
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square" title="Go to the site"></i></a>
+                                <a href="#" target="_Blank"><i class="fa-brands fa-github" title="View repository"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBx">
+                    </div>
+                    <div class="contentBx">
+                        <div class="content">
+                            <h3>Project 3</h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque numquam, autem quas molestias eaque quia sint modi error itaque voluptate distinctio.
+                            </p>
+                            <div class="links">
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square" title="Go to the site"></i></a>
+                                <a href="#" target="_Blank"><i class="fa-brands fa-github" title="View repository"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Skills -->
+        <div class="skills-content grid" data-content id="skills">
+            <div class="Skills">
+            </div>
+        </div>
+
+
+
+    <!-- JavaScript -->
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
