@@ -80,6 +80,10 @@ const closeToast = document.querySelector('.close-toast');
 
 openToast.addEventListener('click', () =>{
     toast.classList.add('toastActive')
+
+    setTimeout(() =>{
+        toast.classList.remove('toastActive')
+    }, 5000);
 });
 
 closeToast.addEventListener('click', () =>{
